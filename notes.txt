@@ -1,0 +1,129 @@
+- no return
+- no parameters
+
+public void DoSomething(){...}
+
+------------------------------
+
+- no returns
+- one or more parameters
+
+public void DoSomething(type param1, param2, param3)
+
+------------------------------
+
+
+
+
+
+
+- two meathods
+1. main meathod
+    - call the isEven method to find if a given number is even or odd
+2. public void isEven(int number) meathod
+    - accepts one parameter
+    - prints weather the parameter is even or not
+    - if even : true, false otherwise
+2.(modified):
+   public bool isEven(int number)
+   - return true (even)/ false (odd)
+
+
+CONDITIONAL OPERATOR
+-------------------------
+ternary operator(three operands)
+(condition)?[if the condition is true]:[if the condition is false]
+conditional operator
+(userGuess == gameGuess)? "you have won! :D":"you have lost :("
+
+
+if(condition)
+{
+	// if cond. is true
+}
+else
+{
+	//if cond. is false
+}
+
+
+
+1. if(userAge == 30)
+   {
+
+
+
+   }
+2. if(currentMonth == 12)
+   {
+
+
+   }
+or if(curMonth == "december")
+   {
+
+
+
+   }
+   if(curMonth == "december" || curMonth == "December")
+   {
+
+
+   }
+
+
+
+   if(temp >= 98.2 && temp <= 100.2)
+   {
+    Console.Write("Normal");
+   }
+   else
+   {
+    Console.Write("NOT Normal");
+-------------------------------------
+
+extra: // temperature is not in range (98.2 and 100.2)
+if (temp < 98.2 || temp > 100.2)
+{
+
+
+}
+
+
+Question 3
+
+int varB=2
+int count = 1;
+while( count > 4)
+{
+ varB+=20;
+ carC=--varB;
+ 
+ count+=2 
+}
+
+q4
+x= 13
+
+a. out == 14 //x is incremented before
+b. out ==13, x == 14 // x is incremented after
+
+q5
+use switch
+
+
+
+
+q6
+
+
+
+
+
+
+
+
+
+
+
+   }
